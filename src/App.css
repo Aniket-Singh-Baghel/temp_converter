@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00fff2;
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  width: 75vw;
+  max-width: 500px;
+  height: 80vh;
+  max-height: 600px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 5rem;
+}
+.units {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+.unitBox {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.box .submit {
+  width: 80%;
+  height: 5vh;
+  border-radius: .5rem;
+  background-color: pink;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: sticky;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.box .submit:hover{
+    background-color: rgb(170, 255, 59);
+}
+.box .reset{
+    width: 15vw;height: 4vh;
+    margin-top: 10px;
+    border-radius: .5rem;
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+    text-transform: uppercase;cursor: pointer;
+    font-weight: 700;
+}
+.reset:hover{
+    background-color: red;
+    color: white;
+}
+
