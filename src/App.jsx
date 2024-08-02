@@ -119,7 +119,7 @@ function App() {
           />
         </div>
       </div>
-      <button onClick={handleSubmit} className="submit">Submit</button>
+      <button onClick={handleSubmit} className="submit">Covert</button>
       <button onClick={handleReset} className="reset">reset</button>
     </div>
   );
